@@ -1,0 +1,304 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* Marquee animation */
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-100%); }
+    }
+
+    .animate-marquee {
+      animation: marquee 10s linear infinite;
+    }
+
+     body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+
+  </style>
+  <!-- Top Banner -->
+  <div class="w-full bg-[#6a1b9a] overflow-hidden">
+    <div class="flex items-center h-10 whitespace-nowrap animate-marquee text-white text-[16px]">
+      
+      <div class="flex gap-x-20 px-5 text-sm md:text-sm lg:text-lg xl:text-lg 2xl:text-3xl">
+        <span>Toy Bonanza: upto 30% off on outdoor toys!</span>
+        <span>Unlock joy: Enjoy 20% off your first order!</span>
+        <span>Free delivery on orders above ₹999!</span>
+      </div>
+
+      <div class="flex gap-x-20 px-5 text-sm md:text-sm lg:text-lg xl:text-lg 2xl:text-3xl">
+        <span>Toy Bonanza: upto 30% off on outdoor toys!</span>
+        <span>Unlock joy: Enjoy 20% off your first order!</span>
+        <span>Free delivery on orders above ₹999!</span>
+      </div>
+
+    </div>
+  </div>
+  
+<header class="w-full bg-[red] text-white">
+  <div class="border-b border-white/70">
+    <div class="container mx-auto px-5 py-4 flex flex-wrap justify-between items-center md:text-sm font-bold">
+      <a href="#" class="hover:underline text-sm md:text-sm lg:text-lg xl:text-lg 2xl:text-3xl">Buying in bulk... click here</a>
+      <div class="flex-items-center gap-x-4 md:gap-x-8">
+          <a href="#class="hover:underline text-sm md:yexy-sm lg:text-lg xl:text-lg 2xl:text-3xl">Delivery information</a>
+          <a href="#class="hover:underline text-sm md:yexy-sm lg:text-lg xl:text-lg 2xl:text-3xl">Track my order</a>
+          <a href="#class="hover:underline text-sm md:yexy-sm lg:text-lg xl:text-lg 2xl:text-3xl">FAQS</a>
+          <img src="wholesale toy website/timing icon.png" alt="time" class="w-6 h-6 2xl:w-10">
+    
+      </div>
+    </div>
+  </div>
+  <div class="container md:w-full mx-auto px-10">
+    <div class="flex flex-wrap items-center justify-between gap-4">
+      <div class="flex-shrink-0">
+        <img src="wholesale toy website/logo.png" alt="logo">
+      </div>
+      <div class="flex-grow max-w-2xl relative">
+        <input type=""text placeholder="search for toys...."
+        class="w-full bg-white 2xl:text-2xl py-3 px-4 pr-10 rounded-full  text-black focus:outline-none">
+      </div>
+      <div class="absolute right-5 top-1/2 -translate-y-1/2 z-20">
+  <i class="bi bi-search text-gray-600 text-lg font-bold"></i>
+</div>
+    </div>
+  </div>
+  
+ <nav class="relative bg-[#e91e63] p-4 text-white">
+  <div class="flex justify-between items-center">
+    
+    <!-- Hamburger -->
+    <input type="checkbox" id="menu-toggle" class="hidden peer">
+    
+    <label for="menu-toggle" class="md:hidden cursor-pointer text-3xl">
+      <i class="bi bi-list"></i>
+    </label>
+
+    <div class="hidden peer-checked:flex md:flex flex-col md:flex-row md:justify-center items-center gap-x-20 w-full">
+      <a href="index.html" class="py-2 md:py-0 font-bold uppercase hover:underline">Home</a>
+      <a href="#" class="py-2 md:py-0 font-bold uppercase hover:underline">Categories</a>
+      <a href="best seller.html" class="py-2 md:py-0 font-bold uppercase hover:underline">Best seller</a>
+      <a href="blog.html" class="py-2 md:py-0 font-bold uppercase hover:underline">Blog</a>
+    </div>
+
+  </div>
+</nav>
+</header>
+</head>
+<div class="text-center bg- yellow-200 p-6">
+    <h1 class="text-3xl font-bold text-gray-800">BASKET</h1>
+</div>
+<body class="bg-gray-100 font-rubik">
+
+<div class="max-w-7xl mx-auto p-6 grid md:grid-cols-3 gap-6">
+
+  <!-- LEFT: CART ITEMS -->
+  <div class="md:col-span-2 space-y-8 bg-pink-100 p-6 rounded-2xl">
+
+    <!-- Item -->
+    <div class="flex gap-6 items-center">
+      <img src="wholesale toy website/fluffy toys.png" class="rounded-xl w-32 h-32 object-cover">
+
+      <div class="flex-1">
+        <h2 class="text-2xl font-medium">Dinosaur Brick Figure in egg</h2>
+        <p class="font-bold text-lg">MELISAA</p>
+        <p class="text-2xl font-semibold mt-2">₹ 1200</p>
+      </div>
+
+      <!-- Qty -->
+      <div class="flex items-center gap-4 text-xl">
+        <button>-</button>
+        <span class="bg-pink-600 text-white px-4 py-1 rounded-lg">1</span>
+        <button>+</button>
+      </div>
+    </div>
+
+    <!-- Item -->
+    <div class="flex gap-6 items-center">
+      <img src="./wholesale toy website/reg best seller 7.png" class="rounded-xl w-32 h-32 object-cover">
+
+      <div class="flex-1">
+        <h2 class="text-2xl font-medium">Whooper Cushion</h2>
+        <p class="font-bold text-lg">PLAYIT</p>
+        <p class="text-2xl font-semibold mt-2">₹ 820</p>
+      </div>
+
+      <div class="flex items-center gap-4 text-xl">
+        <button>-</button>
+        <span class="bg-pink-600 text-white px-4 py-1 rounded-lg">1</span>
+        <button>+</button>
+      </div>
+    </div>
+
+    <!-- Item -->
+    <div class="flex gap-6 items-center">
+      <img src="wholesale toy website/seasonal toys.png" class="rounded-xl w-32 h-32 object-cover">
+
+      <div class="flex-1">
+        <h2 class="text-2xl font-medium">Rainbow Coil Bands</h2>
+        <p class="font-bold text-lg">LEGO</p>
+        <p class="text-2xl font-semibold mt-2">₹ 550</p>
+      </div>
+
+      <div class="flex items-center gap-4 text-xl">
+        <button>-</button>
+        <span class="bg-pink-600 text-white px-4 py-1 rounded-lg">1</span>
+        <button>+</button>
+      </div>
+    </div>
+
+     <!-- Item -->
+    <div class="flex gap-6 items-center">
+      <img src="./wholesale toy website/beach toys.png" class="rounded-xl w-32 h-32 object-cover">
+
+      <div class="flex-1">
+        <h2 class="text-2xl font-medium">Rainbow Coil Bands</h2>
+        <p class="font-bold text-lg">LEGO</p>
+        <p class="text-2xl font-semibold mt-2">₹ 550</p>
+      </div>
+
+      <div class="flex items-center gap-4 text-xl">
+        <button>-</button>
+        <span class="bg-pink-600 text-white px-4 py-1 rounded-lg">1</span>
+        <button>+</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- RIGHT: SUMMARY -->
+  <div class="bg-pink-100 p-6 rounded-2xl space-y-4 h-fit">
+
+    <div class="flex justify-between text-lg">
+      <span>Subtotal</span>
+      <span>₹ 4580</span>
+    </div>
+
+    <div class="flex justify-between text-lg">
+      <span>Delivery Charges</span>
+      <span>₹ 0</span>
+    </div>
+
+    <div class="flex justify-between text-lg">
+      <span>Discount</span>
+      <span>- ₹ 220</span>
+    </div>
+
+    <hr class="border-pink-300">
+
+    <div class="flex justify-between text-xl font-bold">
+      <span>TOTAL</span>
+      <span>₹ 4360</span>
+    </div>
+
+    <a href="address.html">
+  <button 
+    class="w-full bg-pink-600 hover:bg-pink-700 
+           text-white font-bold py-3 rounded-xl mt-4">
+    CHECKOUT
+  </button>
+</a>
+    <div class="flex items-center gap-2 text-sm mt-4">
+      <span>🔒</span>
+      <span>100% Secure Payments</span>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+
+
+<div class="border border-pink-200 rounded-lg pt-6 mt-12 flex flex-col md:flex-row items-center justify-between gap-6 bg-white">
+
+  <!-- Delivery -->
+  <div class="flex flex-col items-center text-center flex-1">
+    <img src="wholesale toy website/delivery icon.png" alt="Delivery" class="mb-2">
+    <h3 class="font-bold text-lg">Delivery</h3>
+    <p class="text-gray-600 text-sm">delivered with in 2 to 3 days</p>
+  </div>
+
+  <!-- Payment -->
+  <div class="flex flex-col items-center text-center flex-1">
+    <img src="wholesale toy website/payment icon.png" alt="Payment" class="mb-2">
+    <h3 class="font-bold text-lg">Payment</h3>
+    <p class="text-gray-600 text-sm">Secured payment</p>
+  </div>
+
+  <!-- Contact -->
+  <div class="flex flex-col items-center text-center flex-1">
+    <img src="wholesale toy website/contact icon.png" alt="Contact" class="mb-2">
+    <h3 class="font-bold text-lg">Contact</h3>
+    <p class="text-gray-600 text-sm">1234567891<br>9876543212</p>
+  </div>
+
+  <!-- Location -->
+  <div class="flex flex-col items-center text-center flex-1">
+    <img src="wholesale toy website/location icon.png" alt="Location" class="mb-2">
+    <h3 class="font-bold text-lg">Location</h3>
+    <p class="text-gray-600 text-sm">Salem<br>Tamilnadu</p>
+  </div>
+
+</div>
+
+<footer class="bg-red-500 text-White-600  mt-12 py-10">
+  <div class="max-w-7xl mx-auto   px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+
+    <!-- Logo & Description -->
+    <div>
+      <h2 class="text-2xl font-bold text-white mb-3">
+        <img src="wholesale toy website/logo.png" alt="logo">
+      </h2>
+      <p class="text-m font-bold text-white">
+     We are leading toy store brings exciting goods all over the country 
+      </p>
+    </div>
+
+    <!-- Categories -->
+    <div>
+      <h3 class="text-lg font-bold text-white mb-3">NAVIGATE</h3>
+      <ul class="space-y-2 font-bold text-white">
+        <li><a href="#" class="hover:text-white">Privacy Policies</a></li>
+        <li><a href="#" class="hover:text-white">Terms and Conditions</a></li>
+        <li><a href="#" class="hover:text-white">How to orders</a></li>
+        <li><a href="#" class="hover:text-white">About us</a></li>
+      </ul>
+    </div>
+
+    <!-- Location & Social -->
+    <div>
+      <h3 class="text-lg font-bold text-white mb-3">k-STUFFS</h3>
+      <p class="text-m font-bold text-white mb-4">
+        Reg:T2154875GST154 <br>
+        📞 +91 98765 43210 <br>
+        ✉️ info@example.com
+      </p>
+
+      <!-- Social Icons -->
+    <div class="socialimage" text:center >
+      <img src="wholesale toy website/social media links.png" alt="social media ">
+    </div>
+
+  </div>
+
+ 
+</footer>
+</html>

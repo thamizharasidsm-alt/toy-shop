@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* Marquee animation */
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-100%); }
+    }
+
+    .animate-marquee {
+      animation: marquee 10s linear infinite;
+    }
+
+     body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+
+  </style>
+  <!-- Top Banner -->
+  <div class="w-full bg-[#6a1b9a] overflow-hidden">
+    <div class="flex items-center h-10 whitespace-nowrap animate-marquee text-white text-[16px]">
+      
+      <div class="flex gap-x-20 px-5 text-sm md:text-sm lg:text-lg xl:text-lg 2xl:text-3xl">
+        <span>Toy Bonanza: upto 30% off on outdoor toys!</span>
+        <span>Unlock joy: Enjoy 20% off your first order!</span>
+        <span>Free delivery on orders above ₹999!</span>
+      </div>
+
+      <div class="flex gap-x-20 px-5 text-sm md:text-sm lg:text-lg xl:text-lg 2xl:text-3xl">
+        <span>Toy Bonanza: upto 30% off on outdoor toys!</span>
+        <span>Unlock joy: Enjoy 20% off your first order!</span>
+        <span>Free delivery on orders above ₹999!</span>
+      </div>
+
+    </div>
+  </div>
+  
+<header class="w-full bg-[red] text-white">
+  <div class="border-b border-white/70">
+    <div class="container mx-auto px-5 py-4 flex flex-wrap justify-between items-center md:text-sm font-bold">
+      <a href="buying in bulk.html"hover:underline text-sm md:text-sm lg:text-lg xl:text-lg 2xl:text-3xl">Buying in bulk... click here</a>
+      <div class="flex-items-center gap-x-4 md:gap-x-8">
+          <a href="delivery.html"hover:underline text-sm md:yexy-sm lg:text-lg xl:text-lg 2xl:text-3xl">Delivery information</a>
+          <a href="track my order.html"hover:underline text-sm md:yexy-sm lg:text-lg xl:text-lg 2xl:text-3xl">Track my order</a>
+          <a href="faq.html"hover:underline text-sm md:yexy-sm lg:text-lg xl:text-lg 2xl:text-3xl">FAQS</a>
+          <img src="wholesale toy website/timing icon.png" alt="time" class="w-6 h-6 2xl:w-10">
+    
+      </div>
+    </div>
+  </div>
+  <div class="container md:w-full mx-auto px-10">
+    <div class="flex flex-wrap items-center justify-between gap-4">
+      <div class="flex-shrink-0">
+        <img src="wholesale toy website/logo.png" alt="logo">
+      </div>
+      <div class="flex-grow max-w-2xl relative">
+        <input type=""text placeholder="search for toys...."
+        class="w-full bg-white 2xl:text-2xl py-3 px-4 pr-10 rounded-full  text-black focus:outline-none">
+      </div>
+      <div class="absolute right-5 top-1/2 -translate-y-1/2 z-20">
+  <i class="bi bi-search text-gray-600 text-lg font-bold"></i>
+</div>
+    </div>
+  </div>
+  
+ <nav class="relative bg-[#e91e63] p-4 text-white">
+  <div class="flex justify-between items-center">
+    
+    <!-- Hamburger -->
+    <input type="checkbox" id="menu-toggle" class="hidden peer">
+    
+    <label for="menu-toggle" class="md:hidden cursor-pointer text-3xl">
+      <i class="bi bi-list"></i>
+    </label>
+
+    <div class="hidden peer-checked:flex md:flex flex-col md:flex-row md:justify-center items-center gap-x-20 w-full">
+      <a href="index.html" class="py-2 md:py-0 font-bold uppercase hover:underline">Home</a>
+      <a href="#" class="py-2 md:py-0 font-bold uppercase hover:underline">Categories</a>
+      <a href="best seller.html" class="py-2 md:py-0 font-bold uppercase hover:underline">Best seller</a>
+      <a href="blog.html" class="py-2 md:py-0 font-bold uppercase hover:underline">Blog</a>
+    </div>
+
+  </div>
+</nav>
+</header>
+</head>
+<div class="text-center bg- yellow-200 p-6">
+    <h1 class="text-3xl font-bold text-gray-800">TRACK YOUR ORDER</h1>
+</div>
+<div class="text-center font:bold p-4">
+    <h2>Standard economy rate delivery charge ( 2-5 working days )</h2>
+    <h1>PLEASE NOTE: ORDERS PLACED AT WEEKENDS & BANK HOLIDAYS WILL BE DISPATCHED ON THE NEXT WORKING DAY.</h1>
+    <h1>To track your order please enter your Order ID in the box below and press the "Track" button. This was given to you on your receipt and in the confirmation email you should have received.</h1>
+
+
+    <body class="bg-gray-100 font-rubik"> 
+     <section class="max-w-5xl mx-auto px-6 py-12">    
+         <!-- Form -->  
+         <form class="space-y-8">    
+        <!-- Inputs Row -->    
+         <div class="grid md:grid-cols-2 gap-6">    
+         <!-- Order ID -->    
+         <div>        
+        <label class="block text-pink-600 font-bold text-xl mb-2">Order ID</label>  
+         <input type="text" placeholder="Found in your order confirmation email"         
+       class="w-full border-2 border-gray-400 rounded-2xl px-5 py-4          
+        text-lg focus:outline-none focus:border-black">        
+        </div>     
+           <!-- Billing Email -->
+        <div>       
+       <label class="block text-pink-600 font-bold text-xl mb-2"> Billing Email</label>        
+         <input type="email" placeholder="Email you used during checkout" class="w-full border-2 border-gray-400 rounded-2xl px-5 py-4  text-lg focus:outline-none focus:border-black">     
+           </div>  
+            </div>  
+            
+            <!-- Button --> 
+                  <div>     
+              <button class="bg-gradient-to-r from-pink-600 to-red-500 hover:from-pink-700 hover:to-red-600 text-white font-bold text-2xl px-10 py-4 rounded-full shadow-lg transition duration-300"> TRACK</button>     
+             </div>   
+            
+            </form> 
+         </section>
+        </body>
+        </html>
+

@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* Marquee animation */
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-100%); }
+    }
+
+    .animate-marquee {
+      animation: marquee 10s linear infinite;
+    }
+
+     body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+
+  @media print {
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    section {
+      page-break-inside: avoid;
+    }
+
+    .no-print {
+      display: none;
+    }
+  }
+  @media print {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .page {
+    width: 100%;
+    padding: 20px;
+  }
+
+  section, div {
+    page-break-inside: avoid;
+  }
+}
+</style>
+
+<!-- Top Banner -->
+  <div class="w-full bg-[#6a1b9a] overflow-hidden">
+    <div class="flex items-center h-10 whitespace-nowrap animate-marquee text-white text-[16px]">
+      
+      <div class="flex gap-x-20 px-5 text-sm md:text-sm lg:text-lg xl:text-lg 2xl:text-3xl">
+        <span>Toy Bonanza: upto 30% off on outdoor toys!</span>
+        <span>Unlock joy: Enjoy 20% off your first order!</span>
+        <span>Free delivery on orders above ₹999!</span>
+      </div>
+
+      <div class="flex gap-x-20 px-5 text-sm md:text-sm lg:text-lg xl:text-lg 2xl:text-3xl">
+        <span>Toy Bonanza: upto 30% off on outdoor toys!</span>
+        <span>Unlock joy: Enjoy 20% off your first order!</span>
+        <span>Free delivery on orders above ₹999!</span>
+      </div>
+
+    </div>
+  </div>
+  
+<header class="w-full bg-[red] text-white">
+  <div class="border-b border-white/70">
+    <div class="container mx-auto px-5 py-4 flex flex-wrap justify-between items-center md:text-sm font-bold">
+      <a href="#" class="hover:underline text-sm md:text-sm lg:text-lg xl:text-lg 2xl:text-3xl">Buying in bulk... click here</a>
+      <div class="flex-items-center gap-x-4 md:gap-x-8">
+          <a href="#class="hover:underline text-sm md:yexy-sm lg:text-lg xl:text-lg 2xl:text-3xl">Delivery information</a>
+          <a href="#class="hover:underline text-sm md:yexy-sm lg:text-lg xl:text-lg 2xl:text-3xl">Track my order</a>
+          <a href="#class="hover:underline text-sm md:yexy-sm lg:text-lg xl:text-lg 2xl:text-3xl">FAQS</a>
+          <img src="wholesale toy website/timing icon.png" alt="time" class="w-6 h-6 2xl:w-10">
+    
+      </div>
+    </div>
+  </div>
+  <div class="container md:w-full mx-auto px-10">
+    <div class="flex flex-wrap items-center justify-between gap-4">
+      <div class="flex-shrink-0">
+        <img src="wholesale toy website/logo.png" alt="logo">
+      </div>
+      <div class="flex-grow max-w-2xl relative">
+        <input type=""text placeholder="search for toys...."
+        class="w-full bg-white 2xl:text-2xl py-3 px-4 pr-10 rounded-full  text-black focus:outline-none">
+      </div>
+      <div class="absolute right-5 top-1/2 -translate-y-1/2 z-20">
+  <i class="bi bi-search text-gray-600 text-lg font-bold"></i>
+</div>
+    </div>
+  </div>
+  
+ <nav class="relative bg-[#e91e63] p-4 text-white">
+  <div class="flex justify-between items-center">
+    
+    <!-- Hamburger -->
+    <input type="checkbox" id="menu-toggle" class="hidden peer">
+    
+    <label for="menu-toggle" class="md:hidden cursor-pointer text-3xl">
+      <i class="bi bi-list"></i>
+    </label>
+
+    <div class="hidden peer-checked:flex md:flex flex-col md:flex-row md:justify-center items-center gap-x-20 w-full">
+      <a href="index.html" class="py-2 md:py-0 font-bold uppercase hover:underline">Home</a>
+      <a href="#" class="py-2 md:py-0 font-bold uppercase hover:underline">Categories</a>
+      <a href="best seller.html" class="py-2 md:py-0 font-bold uppercase hover:underline">Best seller</a>
+      <a href="blog.html" class="py-2 md:py-0 font-bold uppercase hover:underline">Blog</a>
+    </div>
+
+  </div>
+</nav>
+</header>
+<body>
+
+<section class="font-rubik bg-gray-100 py-12 px-4 md:px-16">
+
+  <div class="max-w-4xl mx-auto bg-white p-8 md:p-10 rounded-2xl shadow-lg space-y-8">
+
+    <!-- Heading -->
+    <h1 class="text-3xl md:text-4xl font-bold text-pink-600 text-center">
+      HOW TO ORDER
+    </h1>
+
+    <!-- Intro -->
+    <p class="text-gray-700 leading-relaxed text-justify">
+      <span class="font-bold">KIDS STUFFS</span> works to ensure that your privacy is protected when using our website.
+      We have a policy setting out how your personal data will be processed and protected.
+      Applicable law and our practices change over time. If we decide to update our Policy,
+      we will post the changes on this site. You should check this page from time to time
+      to ensure that you are happy with any changes.
+    </p>
+
+    <!-- Subheading -->
+    <div>
+      <h2 class="text-2xl font-bold text-gray-800 mb-3">
+        Your Personal Data
+      </h2>
+
+      <p class="text-gray-700 leading-relaxed mb-4 text-justify">
+        In providing your personal data, you consent to us using the data collected in order
+        to meet our commitments to you and to provide you with the service you expect.
+        We need your data for the following purposes:
+      </p>
+
+      <!-- List -->
+      <ul class="list-disc pl-6 space-y-2 text-gray-700">
+        <li>To create your personal account (name and email address).</li>
+        <li>To validate legal age for online shopping (date of birth).</li>
+        <li>To process orders (name, address, payment details).</li>
+        <li>To send marketing offers and newsletters.</li>
+        <li>To contact you for delivery issues.</li>
+        <li>To answer queries and provide updates.</li>
+        <li>To notify competition winners.</li>
+        <li>To analyze data for better marketing.</li>
+      </ul>
+    </div>
+
+    <!-- Additional Info -->
+    <div class="space-y-4 text-gray-700 leading-relaxed text-justify">
+      <p>
+        We will only keep your data for as long as necessary to carry out our services
+        and as required by law. After this, your personal data will be deleted.
+      </p>
+
+      <p>
+        We cannot remove your data when there is a legal storage requirement,
+        such as taxation or other legal obligations.
+      </p>
+    </div>
+
+    <!-- App Section -->
+    <div class="space-y-4">
+
+      <p class="text-gray-700 leading-relaxed text-justify">
+        At Sonee Sports Mobile App, we are committed to safeguarding the privacy
+        of our users. This policy explains how we collect, use, and protect your data.
+      </p>
+
+      <p class="text-gray-700 leading-relaxed text-justify">
+        By uploading your profile image, you agree to the terms outlined in this policy.
+      </p>
+
+      <p class="text-gray-700 leading-relaxed text-justify">
+        <span class="font-semibold">Information We Collect:</span><br>
+        When you upload a profile image, we may collect relevant data required for service improvement.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+    
+</body>
+</html>
